@@ -1,0 +1,84 @@
+body{
+    overflow-x: hidden;
+    background-image: url(../assets/background_gallery.jpg);
+}
+
+.nav li+li{
+    margin-left: 10px;
+}
+
+.dropdown-menu li+li{
+    margin-left:0;
+}
+
+.navbar li .active{
+    font-weight: bold;
+    border-bottom: 2px white solid;
+}
+
+.dropdown-menu li .active{
+    font-weight: bold;
+    background-color: white;
+}
+
+.dropdown-menu li a.active {
+    color: black;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+}
+
+/* EXPERIENCES */
+.gallery{
+    background-color: #DCE2FF;
+    height: 73vw;
+}
+
+.galleries .section-title h2{
+    padding-top: 1.3vw;
+    margin: 0;
+    text-align: center;
+}
+
+.gallery-list{
+    width: 100vw;
+    justify-content: space-evenly;
+}
+
+.gallery-1:hover{
+    box-shadow: 0px 4px 25px 2px orange ;
+}
+.gallery-2:hover{
+    box-shadow: 0px 4px 25px 2px yellow ;
+}
+.gallery-3:hover{
+    box-shadow: 0px 4px 25px 2px rgb(28, 247, 28) ;
+}
+
+/* Detail */
+.detail{
+    display: flex;
+    width: 60vw;
+    height: 25vw;
+    margin: auto;
+    align-items: center;
+    padding: 2vw;
+    margin-top: 3vw;
+}
+
+.detail-art{
+    display: flex;
+}
+
+.desc{
+    margin-left: 2vw;
+}
+
+.desc h1{
+    font-size: 3vw;
+}
+
+.desc p{
+    font-size: 1.3vw;
+}

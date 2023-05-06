@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GalleryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,10 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/sidebar', function(){
-    return view('slidebar');
-});
+Route::get('/gallery', [GalleryController::class, 'index']);
 
-Route::get('/home', function(){
-    return view('home');
-});
+Route::get('/gallery/{slug}', [GalleryController::class, 'show']);

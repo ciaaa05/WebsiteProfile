@@ -172,7 +172,7 @@ margin-bottom: 0;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
-  
+
 .skills .progresses .skill .val {
     float: right;
     font-style: normal;
@@ -259,18 +259,18 @@ margin-bottom: 0;
     height: 100%;
     border-radius: 10px;
 }
-  
+
 .persentase  .progress-bar-left {
     left: 0;
     z-index: 1;
 }
-  
+
 .persentase .progress-bar-right {
     right: 0;
     transform: scaleX(-1);
     z-index: 2;
 }
-  
+
 .persentase .progress-bar-fill {
     position: absolute;
     top: 0;
@@ -319,6 +319,7 @@ margin-bottom: 0;
 
 .interests {
     height: 38vw;
+    background: linear-gradient(180deg, #FFF96D 0%, rgba(253, 251, 189, 0.62) 100%);
 }
 
 .interests .section-title h2{
@@ -331,7 +332,7 @@ margin-bottom: 0;
 .interest-desc{
     display: flex;
     flex-direction: column;
-    background: rgba(254, 245, 255, 0.53);
+    background: rgba(254, 245, 255);
     border: 2px #878787 solid;
     border-radius: 10px;
     width: 23vw;
@@ -356,11 +357,10 @@ margin-bottom: 0;
     margin-top: 0;
 }
 
-
 /* RESUME */
 
 .resume{
-    background-color: #F5F8FD;
+    /* background-color: #F5F8FD; */
     box-shadow: 0px 4px 25px 2px rgba(0, 0, 0, 0.25);
 }
 
@@ -384,14 +384,14 @@ margin-bottom: 0;
     margin-bottom: 1.8vw;
     color: #45505b;
 }
-  
+
 .resume .resume-item {
     padding: 0 0 1.6vw 1.6vw;
     margin-top: -2px;
     border-left: 2px solid #0563bb;
     position: relative;
 }
-  
+
 .resume .resume-item h4 {
     line-height: 18px;
     font-size: 1.4vw;
@@ -401,7 +401,7 @@ margin-bottom: 0;
     color: #0563bb;
     margin-bottom: 0.8vw;
 }
-  
+
 .resume .resume-item h5 {
     font-size: 1.23vw;
     background: #f7f8f9;
@@ -411,11 +411,11 @@ margin-bottom: 0;
     font-weight: 600;
     margin-bottom: 0.8vw;
 }
-  
+
 .resume .resume-item:last-child {
     padding-bottom: 0;
 }
-  
+
 .resume .resume-item::before {
     content: "";
     position: absolute;
